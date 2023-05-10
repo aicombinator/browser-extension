@@ -1,0 +1,20 @@
+{
+	"name": "aicombinator",
+	"description": "Automate online tasks using GPT-4",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "src/popup/index.html"
+	},
+	"chrome_url_overrides": {
+		"newtab": "src/new-tab/index.html"
+	},
+	"options_ui": {
+		"page": "src/options/index.html",
+		"open_in_tab": true
+	},
+	"permissions": [
+		"storage",
+		"debugger"
+	]
+}
